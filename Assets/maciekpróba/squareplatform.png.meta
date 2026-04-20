@@ -119,11 +119,7 @@ TextureImporter:
         x: 196
         y: 189
         width: 632
-<<<<<<< Updated upstream
-        height: 645
-=======
-        height: 647
->>>>>>> Stashed changes
+        height: 0
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      squareplatform_0: -167978205257863201
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
