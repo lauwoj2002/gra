@@ -47,9 +47,21 @@ public class PlayerMovement : MonoBehaviour
 
     void FlipSprite()
     {
+        // Pobieramy obecną wielkość postaci (taką, jaką ustawiłeś w Inspektorze)
+        Vector3 currentScale = transform.localScale;
+
         if (horizontalInput > 0)
-            transform.localScale = new Vector3(1, 1, 1);
+        {
+            // Ustawiamy X zawsze na wartość dodatnią (Mathf.Abs to wartość bezwzględna)
+            currentScale.x = Mathf.Abs(currentScale.x);
+        }
         else if (horizontalInput < 0)
-            transform.localScale = new Vector3(-1, 1, 1);
+        {
+            // Ustawiamy X zawsze na wartość ujemną
+            currentScale.x = -Mathf.Abs(currentScale.x);
+        }
+
+        // Przypisujemy zaktualizowaną skalę z powrotem do postaci
+        transform.localScale = currentScale;
     }
 }
