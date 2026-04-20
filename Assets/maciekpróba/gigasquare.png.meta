@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 60dac1b482cc1ef46bcea88d42ea41e4
+guid: 30f636f5523fa474b9adb966bcd440a4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -167978205257863201
-    second: squareplatform_0
+      213: -3935950213866227594
+    second: gigasquare_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: squareplatform_0
+      name: gigasquare_0
       rect:
         serializedVersion: 2
         x: 196
         y: 189
         width: 632
-        height: 0
+        height: 645
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fdfe89956b83badf0800000000000000
-      internalID: -167978205257863201
+      spriteID: 67871e05222b069c0800000000000000
+      internalID: -3935950213866227594
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      squareplatform_0: -167978205257863201
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
