@@ -432,7 +432,7 @@ GameObject:
   - component: {fileID: 161640234}
   - component: {fileID: 161640233}
   - component: {fileID: 161640232}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gigasquare_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -541,7 +541,7 @@ GameObject:
   - component: {fileID: 170858138}
   - component: {fileID: 170858137}
   - component: {fileID: 170858136}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: platform_0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -911,7 +911,7 @@ GameObject:
   - component: {fileID: 493521961}
   - component: {fileID: 493521960}
   - component: {fileID: 493521959}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: platform_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1669,7 +1669,7 @@ GameObject:
   - component: {fileID: 827180980}
   - component: {fileID: 827180979}
   - component: {fileID: 827180978}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: platform_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1778,7 +1778,7 @@ GameObject:
   - component: {fileID: 831833767}
   - component: {fileID: 831833766}
   - component: {fileID: 831833765}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: platform_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2148,7 +2148,7 @@ GameObject:
   - component: {fileID: 1253539175}
   - component: {fileID: 1253539174}
   - component: {fileID: 1253539173}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: platform_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2518,7 +2518,7 @@ GameObject:
   - component: {fileID: 1862515381}
   - component: {fileID: 1862515380}
   - component: {fileID: 1862515379}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: platform_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2714,7 +2714,7 @@ GameObject:
   - component: {fileID: 2035607702}
   - component: {fileID: 2035607701}
   - component: {fileID: 2035607700}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: platform_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2823,7 +2823,7 @@ GameObject:
   - component: {fileID: 2072416910}
   - component: {fileID: 2072416909}
   - component: {fileID: 2072416908}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gigasquare_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
