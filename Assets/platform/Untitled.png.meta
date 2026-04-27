@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3a791f600bd137741be8c2bcdca00704
+guid: 2adfd33dd92134f4b9bd02928928de74
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3281543466171685048
-    second: stoneplatfrom_0
+      213: 133982719826790466
+    second: Untitled_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stoneplatfrom_0
+      name: Untitled_0
       rect:
         serializedVersion: 2
-        x: 196
-        y: 544
-        width: 632
-        height: 154
+        x: 159
+        y: 185
+        width: 705
+        height: 644
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 29, y: 5, z: 23, w: 76}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84725d79a9d9572d0800000000000000
-      internalID: -3281543466171685048
+      spriteID: 2480155e2900cd100800000000000000
+      internalID: 133982719826790466
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a9202dbeb1ba79e44872ddd6d87c4b9e
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      stoneplatfrom_0: -3281543466171685048
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
