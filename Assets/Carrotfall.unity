@@ -323,6 +323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 98062875}
   - component: {fileID: 98062874}
+  - component: {fileID: 98062876}
   m_Layer: 0
   m_Name: lis
   m_TagString: Untagged
@@ -401,6 +402,25 @@ Transform:
   - {fileID: 797419385}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &98062876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98062873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcda4f58e21e59943bacbbb6b348cc03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 8
+  jumpForce: 5
+  groundCheck: {fileID: 98062875}
+  checkRadius: 0.2
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 1
 --- !u!1 &161640231
 GameObject:
   m_ObjectHideFlags: 0
