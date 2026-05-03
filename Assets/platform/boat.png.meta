@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 652b56c43c2c94f4b84195513b1334bb
+guid: 2b8b5a462e2d60c469828bd727b2ccb3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8985416186079695662
-    second: stonpile_0
+      213: -4032481707582436298
+    second: boat_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stonpile_0
+      name: boat_0
       rect:
         serializedVersion: 2
-        x: 218
-        y: 0
-        width: 634
-        height: 941
+        x: 34
+        y: 293
+        width: 736
+        height: 592
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2dcaca5e5936d4380800000000000000
-      internalID: -8985416186079695662
+      spriteID: 63cc940804fb908c0800000000000000
+      internalID: -4032481707582436298
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      stonpile_0: -8985416186079695662
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
