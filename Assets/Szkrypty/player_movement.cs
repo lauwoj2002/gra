@@ -12,18 +12,19 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundLayer;
 
     private Rigidbody2D rb;
+    private Animator anim;
     private float horizontalInput;
     private bool isGrounded;
 
     void Awake()
     {
-        // Pobieramy komponent Rigidbody2D z obiektu gracza
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
-        // 1. Pobieranie danych od gracza (A/D lub strzałki)
+        // 1. Pobieranie danych od gracza
         horizontalInput = Input.GetAxisRaw("Horizontal");
 
         // 2. Skakanie
@@ -32,13 +33,21 @@ public class PlayerMovement : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
 
-        // 3. Obracanie postaci w stronę ruchu
+        // 3. Obracanie postaci
         FlipSprite();
+
+        // 4. Obsługa animacji ruchu
+        bool isMoving = horizontalInput != 0;
+        anim.SetBool("isRunning", isMoving);
+
+        // 5. Obsługa animacji skoku (NOWE)
+        // Jeśli isGrounded jest fałszywe (czyli postać NIE dotyka ziemi), isJumping będzie prawdziwe.
+        anim.SetBool("isJumping", !isGrounded);
     }
 
     void FixedUpdate()
     {
-        // Sprawdzanie czy gracz dotyka ziemi (fizyka najlepiej działa w FixedUpdate)
+        // Sprawdzanie czy gracz dotyka ziemi
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
 
         // Nakładanie prędkości na oś X
@@ -47,21 +56,17 @@ public class PlayerMovement : MonoBehaviour
 
     void FlipSprite()
     {
-        // Pobieramy obecną wielkość postaci (taką, jaką ustawiłeś w Inspektorze)
         Vector3 currentScale = transform.localScale;
 
         if (horizontalInput > 0)
         {
-            // Ustawiamy X zawsze na wartość dodatnią (Mathf.Abs to wartość bezwzględna)
             currentScale.x = Mathf.Abs(currentScale.x);
         }
         else if (horizontalInput < 0)
         {
-            // Ustawiamy X zawsze na wartość ujemną
             currentScale.x = -Mathf.Abs(currentScale.x);
         }
 
-        // Przypisujemy zaktualizowaną skalę z powrotem do postaci
         transform.localScale = currentScale;
     }
 }
