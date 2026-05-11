@@ -1,0 +1,23 @@
+Laura: 
+- przygotowanie repozytorium i GDD
+- projekt postaci, wrogów, npc i dodatkowych (ptaków)
+- projekt spritów do prostych animacji idle do wrogów i npc
+  i animacji chodzenia gracza
+- zanimowanie npc
+- ustawienie kamery w silniku
+
+Maciek: 
+- projekt lokacji
+- platformy i tło
+- assety
+- rozłożenie platform i assetów na mapie
+- skrypt collectibles
+- UI (napis score i punkty)
+
+
+
+Mateusz:
+- skrypty: poruszanie się gracza, damage, patrol points, health
+- projekt przeszkód (kolce i ogień)
+- projekt prostej animacji ognia
+- zanimowanie postaci gracza
