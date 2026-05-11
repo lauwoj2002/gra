@@ -20,4 +20,4 @@ Mateusz:
 - skrypty: poruszanie się gracza, damage, patrol points, health
 - projekt przeszkód (kolce i ogień)
 - projekt prostej animacji ognia
-- zanimowanie postaci gracza
+- zanimowanie postaci gracza i przeciwników
