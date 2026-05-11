@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 209c7399b0a68104a9dc928ca6a222d1
+guid: 6cea6a08b24a7b7479a809051fbcff37
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -983829981885656550
-    second: bober4_idle2_0
+      213: -2238997634505769378
+    second: "go\u0142\u0105b2_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bober4_idle2_0
+      name: "go\u0142\u0105b2_0"
       rect:
         serializedVersion: 2
-        x: 117
-        y: 62
-        width: 552
-        height: 927
+        x: 74
+        y: 66
+        width: 452
+        height: 277
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a12935218dbb852f0800000000000000
-      internalID: -983829981885656550
+      spriteID: e5ef75e938b7de0e0800000000000000
+      internalID: -2238997634505769378
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bober4_idle2_0: -983829981885656550
+      "go\u0142\u0105b2_0": -2238997634505769378
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
